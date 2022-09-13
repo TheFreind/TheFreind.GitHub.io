@@ -1,0 +1,25 @@
+.ainsley-beach {
+    background: url(./AinsleySpace.jpg);
+}
+
+div.paragraphs {
+margin: 20px;
+background-color: #ffffff;
+border: 1px solid black;
+opacity: 0.6;
+}
+
+div.paragraphs p {
+    margin: 5%;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+
+#Ainsley {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 5px solid darkmagenta; 
+}

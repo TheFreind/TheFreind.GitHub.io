@@ -1,0 +1,27 @@
+body {
+    background-image: url(./JobyValorantBackground.jpg);
+    background-size: cover;
+}
+
+@font-face { font-family: ValorantFont; src: url('./Valorant\ Font.ttf'); }
+
+p {
+    font-family: ValorantFont, sans-serif; 
+}
+
+.blackBG {
+    color: white;
+}
+
+.AgentSelection {
+    width: 780px;
+    height: 225px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0.01px;
+}
+
+#JOBY {
+    border: 2px solid white;
+}
+
