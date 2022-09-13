@@ -1,24 +1,51 @@
+@font-face { font-family: ValorantFont; src: url('./Valorant\ Font.ttf'); }
+
 body {
     background-image: url(./JobyValorantBackground.jpg);
     background-size: cover;
 }
 
-@font-face { font-family: ValorantFont; src: url('./Valorant\ Font.ttf'); }
-
-p {
-    font-family: ValorantFont, sans-serif; 
+.return-link {
+    color: white;
+    font-family: ValorantFont, sans-serif;
 }
 
-.blackBG {
-    color: white;
+.description {
+    display: inline-block;
+    width: 375px;
+    height: 400px;
+    position: absolute;
+    right: 0%;
+    top: 9%;
+
+    color: rgb(232, 250, 131);
+}
+
+.description h1 {
+    font-family: ValorantFont, sans-serif;
+}
+
+.description p {
+    font-family: Helvetica, sans-serif;
+}
+
+.description .widen {
+    letter-spacing: 2.5px;
 }
 
 .AgentSelection {
-    width: 780px;
-    height: 225px;
-    margin: 0 auto;
-    position: absolute;
-    bottom: 0.01px;
+    position:absolute;
+    width: 560px;
+    height: 170px;
+    bottom: 10px;
+    left: 28%;
+}
+
+#JobyStanding {
+    position:absolute;
+    display: block;
+    left: 40%;
+    border-radius: 3%;
 }
 
 #JOBY {
