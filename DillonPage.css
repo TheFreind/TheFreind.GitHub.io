@@ -1,0 +1,35 @@
+body {
+    background-image: url(./DillonOhioSpace.jpg);
+    background-size: cover;
+}
+
+.moon {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+}
+
+p {
+    color: white;
+    font-weight: bold;
+}
+
+.goodMorning {
+    text-align: right;
+    margin-top: 5%;
+    margin-right: 20%;
+}
+
+.dillonGlare {
+    position: absolute;
+    right: 12%;
+}
+
+.clueless {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+}

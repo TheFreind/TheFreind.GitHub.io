@@ -1,4 +1,4 @@
-.ainsley-beach {
+.ainsley-space {
     background: url(./AinsleySpace.jpg);
 }
 
@@ -14,6 +14,12 @@ div.paragraphs p {
     font-weight: bold;
     font-family:Arial, Helvetica, sans-serif;
     color: #000000;
+}
+
+.return-link {
+    display: block;
+    margin: 20px;
+    text-align: center;
 }
 
 #Ainsley {
